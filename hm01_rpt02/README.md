@@ -15,7 +15,7 @@ hm01_best3_song.html : 최고의 노래 TOP 3
 
 hm01_best3_country.html : 여행가고 싶은 나라 TOP 3
 
-hm01_form.html: 동호회 모집/ web form 과 fieldset tag를 이용하여 폼을 만듬
+hm01_form.html: 동호회 모집/ web form, fieldset tag, button tag를 이용하여 폼을 만듬
 
 hm01_card.html:크리스마스 카드
 
