@@ -19,7 +19,7 @@ hm01_form.html: 동호회 모집/ web form 과 fieldset tag를 이용하여 폼�
 
 hm01_card.html:크리스마스 카드
 
-css기능을 이용하여 스타일에서 노래, hm01 이름, 테두리, 크리스마스트리를 꾸몄고
+css기능을 이용하여 스타일에서 노래, hm01 이름, 테두리, 크리스마스트리를 꾸몄고 textColorAnimation 를 이용하여 Merry X-mas에 시간이 지나면서 색깔이랑 크기가 빠귀는 애니메이션 효과를 넣어주었다
 
 hmo1_x-mas invitation.html: 크리스마스 초대장
 
