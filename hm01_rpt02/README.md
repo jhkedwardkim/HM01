@@ -1,7 +1,7 @@
 # HM01 두번째 홈피 프로젝트
 
 # 파일구조 및 설명
-hm01_rpt02.html : 나의 시작 홈피, 헌 개의 iframe으로 구성, 시맨틱 태를 이용하여 화면구성을 header,section,aside,footer로 나눴다
+hm01_rpt02.html : 나의 시작 홈피/ 헌 개의 iframe으로 구성, 시맨틱 태를 이용하여 화면구성을 header,section,aside,footer로 나눴다
 
 hm01_sitelist.html : 홈피 링크 네비게이터, 링크로 구성
 
@@ -15,9 +15,11 @@ hm01_best3_song.html : 최고의 노래 TOP 3
 
 hm01_best3_country.html : 여행가고 싶은 나라 TOP 3
 
-hm01_form.html: 동호회 모집
+hm01_form.html: 동호회 모집/ web form 과 fieldset tag를 이용하여 폼을 만듬
 
 hm01_card.html:크리스마스 카드
+
+css기능을 이용하여 스타일에서 노래, hm01 이름, 테두리, 크리스마스트리를 꾸몄고
 
 hmo1_x-mas invitation.html: 크리스마스 초대장
 
