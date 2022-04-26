@@ -24,24 +24,45 @@ hmo1_x-mas invitation.html: 크리스마스 초대장
 # 사용한 HTML 기술
 
 div
+
 datalist
+
 position
+
 keyframe
+
 border-radius
+
 textcoloranimation
+
 span
+
 h3
+
 hr
+
 img src
+
 audio src
+
 p style
+
 table
+
 tr,td
+
 form
+
 fieldset
+
 legend
+
 br
+
 header, nav, section, aside, footer
+
 list
+
 a href
+
 iframe
