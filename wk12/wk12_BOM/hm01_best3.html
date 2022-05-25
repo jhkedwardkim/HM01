@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm01 favorite 3 영화</title>
+    <style></style>
+
+    <script>
+      function load() {
+        var select = document.getElementById("site");
+        window.location=select.options[select.selectedIndex].value;
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <h3>hm01 favorite 3 영화</h3>
+    <hr />
+    사이트 선택 :
+    <select id="site">
+      <option value="https://www.youtube.com/watch?v=Ko2NWhXI9e8" selected>어벤져스 엔드게임 </option>
+      <option value="https://www.youtube.com/watch?v=f2qqD7ljYVY">트랜스포머 최후의 기사 </option>
+      <option value="https://www.youtube.com/watch?v=pxR6cKkPzNo">토르 라그노라크 </option>
+    </select>
+
+    <p>
+      <button onclick="load()">웹 사이트 접속</button>
+    </p>
+  </body>
+</html>
