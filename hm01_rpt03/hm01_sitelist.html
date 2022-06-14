@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    
+    <meta charset="utf-8" />
+    <title>site</title>
+    <style></style>
+    <script>
+      function query() {
+        var ret = confirm("음악을 들으러 가시겠습니까?");
+        return ret;
+        // confirm()의 리턴 값은 true 또는 false
+      }
+
+      function noAction(e) {
+        e.preventDefault();
+        // 이벤트의 디폴트 행동 강제취소
+      }
+      function query1() {
+        var ret = confirm("현재 코로나 현황을 보러 가시겠습니까?");
+        return ret;
+        // confirm()의 리턴 값은 true 또는 false
+      }
+
+      function noAction(e) {
+        e.preventDefault();
+        // 이벤트의 디폴트 행동 강제취소
+      }
+    </script>
+    <script>
+      function load() {
+        var select = document.getElementById("site");
+        window.location = select.options[select.selectedIndex].value;
+      }
+      function openURL() {
+        var select = document.getElementById("site");
+        url = select.options[select.selectedIndex].value;
+        //document.write(url);
+        window.open(url, "myWin", "left=300,top=300,width=1000,height=800");
+      }
+    </script>
+  </head>
+
+  <body>
+    <hr />
+    <a href="https://www.melon.com" onclick="return query()">
+      Melon 링크</a>
+    <hr />
+    <hr />
+    <a href="https://www.arcgis.com/apps/MapSeries/index.html?appid=b379f788425349168d02669285758af0" onclick="return query1()">
+      코로나 현황사이트 링크</a>
+    <hr />
+    <h3>영화 드라마 대표 웹 사이트</h3>
+    <hr />
+    사이트 선택 :
+    <select id="site" onchange="openURL();">
+      <option value="#">Select URL </option>
+      <option value="https://www.cgv.co.kr/">cgv </option>
+      <option value="https://www.lottecinema.co.kr/NLCMW/Movie/Lconly">롯데시네마 </option>
+      <option value="https://www.netflix.com/kr/">넷플릭스 </option>
+      <option value="https://www.tving.com/main.do?retRef=Y&source=https://www.google.co.kr/">티빙 </option>
+      <option value="http://www.naver.com">네이버 </option>
+      <option value="http://www.google.com">구글 </option>
+      <option value="https://www.daum.net/">다음 </option>
+      <option value="http://www.microsoft.com">마이크로소프트 </option>
+    </select>
+    <p>
+      <button onclick="load()">웹 사이트 접속</button>
+    </p>
+   
+    <div>
+      <span id="div" style="background-color: yellow;">
+        미니게임</span
+      >
+      </div>
+      <script>
+      var div = document.getElementById("div");
+      var timerID = setInterval("doRotate()", 200);
+      // 200밀리초 주기로 doRotate() 호출
+    
+      div.onclick = function(e) {
+        // 마우스 클릭 이벤트 리스너
+        clearInterval(timerID);
+        // 타이머 해제. 문자열 회전 중단
+      };
+      function doRotate() {
+        var str = div.innerHTML;
+        var firstChar = str.substr(0, 1);
+        var remains = str.substr(1, str.length-1);
+        str = remains + firstChar;
+        div.innerHTML = str;
+      }
+      </script>
+    <li>
+      <a target="_blank" href="https://www.y8.com/games/keeper_of_the_grove_2">
+      <img alt="Keeper of the Grove 2" class="playable" src="https://img-hws.y8.com/cloud/y8-thumbs/62765/small.gif" />
+      <br />Keeper of the Grove 2<br />지금 플레이 하기!</a>
+      
+    <li>
+        <a target="_blank" href="https://www.y8.com/games/8_ball_billiards_classic">
+      <img alt="8 Ball Billiards Classic" class="playable" src="https://img-hws.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/117836/small.gif" />
+      <br />8 Ball Billiards Classic<br />지금 플레이 하기!</a>
+    <li>
+      <a target="_blank" href="https://www.y8.com/games/among_us_single_player">
+        <img alt="Among Us Single Player" class="playable" src="https://img-hws.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/137665/small.gif" />
+        <br />Among Us Single Player<br />지금 플레이 하기!</a>
+  </body>
+</html>

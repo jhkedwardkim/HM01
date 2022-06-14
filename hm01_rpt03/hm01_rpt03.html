@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title>hm01 : 나는 누구인가?</title>
+		<style>
+		body {background-image: url('media/123.jpg');
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;}
+			h3 {color: purple;}
+			span {color: blue; font-size: 20px;}
+			#menubar {
+				background: blank;
+			}
+        .header {
+			width: 100%;
+			height: 10%;
+			background: yellow;
+        }
+		.nav {
+			width: 20%;
+			height: 80%;
+			float: left;
+			background: rgb(241, 223, 181);
+		}
+
+		.section {
+			width: 40%;
+			height: 80%;
+			float: left;
+			background: white(241, 151, 40);
+		}
+		.aside {
+		width: 40%;
+		height: 80%;
+		float: right;
+		background: rgb(241, 166, 36);
+	}
+    .footer {
+        width: 100%;
+        height: 10%;
+        clear: both;
+        background: yellow;
+	}
+
+	</style>
+	<script></script>
+	</head>
+
+	<body>
+		<header class="header">
+			<h1><a href="https://github.com/jhkedwardkim"> hm01의 홈페이지 바로가기 </a></h1>
+            
+		</header>
+
+		<nav class="nav">
+			<ul>
+				<li>
+					<h3>hm01에 대하여</h3>
+					<ul>
+						<li>
+							<a href="hm01_info.html" target="myframe">hm01은 누구인가?</a>
+						</li>
+						<li>
+							<a href="hm01_day.html" target="sideframe">나의 하루</a></li>
+                        
+					</ul>
+				</li>
+				<li>
+					<h3>my best 3</h3>
+					<ul>
+						<li>
+							<a href="hm01_best3_song.html" target="myframe">노래 best3</a>
+						</li>
+						<li>
+							<a href="hm01_best3_country.html" target="myframe">여행 가보고 싶은 나라 TOP3</a>
+						</li>
+						<li> 
+							<a href="hm01_book.html" target="myframe">책 best3</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h3>동호회 및 기타 프로그램</h3>
+					<ul>
+						<li>
+							<a href="hm01_form.html" target="myframe">동호회 모집 안내</a>
+						</li>
+						<li>
+							<a href="hm01_iot.html" target="myframe">온도관리 (IoT)</a>
+						  </li>
+						<li>
+							<a href="hm01_time.html" target="myframe">대한민국시간</a>
+						  </li>
+						<li>
+							<a href="hm01_fancy_calc.html" target="myframe">공학용계산기</a>
+						  </li>
+						  <li>
+							<a href="hm01_sitelist.html" target="myframe"> 자주 이용하는 사이트</a>
+						  </li>
+						  <li>
+							<a href="hm01_GUGUDAN.html" target="myframe">구구단 계산프로그램</a>
+						  </li>
+						  <li>
+							<a href="hm01_fruit.html" target="myframe">가장 좋아하는 과일</a>
+						  </li>
+
+						
+					</ul>
+				</li>
+                <li>
+					<h3>파티 초대장</h3>
+					<ul>
+						<li>
+							<a href="hm01_card.html" target="myframe">X-Mas 카드</a>
+						</li>
+						<li>
+							<a href="hm01_x-mas invitation.html" target="sideframe">X-Mas 파티 초대장</a>
+						</li>													
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+		<section class="section" id="main">
+
+			<article>
+				<iframe src="hm01_info.html" name="myframe" width="510" height="570">
+
+				</iframe>
+
+			</article>
+
+		</section>
+		<section class="aside" id="side">
+
+			<article>
+				<iframe src="hm01_day.html" name="sideframe" width="510" height="570">
+
+				</iframe>
+
+			</article>
+
+		</section>
+
+
+		<footer class="footer">
+			<p>
+				20203309 김정헌 HM01
+			</p>
+		</footer>
+
+	</body>
+
+</html>
