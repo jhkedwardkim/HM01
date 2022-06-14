@@ -34,7 +34,7 @@ hm01_fancy_calc.html: 공학용 계산기
 
 hm01_time.html: 현재 시각
 
-hm01_fruit.html: 가장 좋아하는 
+hm01_fruit.html: 가장 좋아하는 과일
 
 
 
